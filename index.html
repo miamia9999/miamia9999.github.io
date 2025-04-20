@@ -11,18 +11,28 @@
         href="https://fonts.googleapis.com/css2?family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="Website.css">
+    <!-- filepath: c:\Users\admin\Desktop\miamia9999.github.io\index.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="header grid">
+    <header>
+    <nav class="header">
         <a href="#" class="logo"><span>Mai Huynh</span></a>
-        <nav class="navbar grid">
-            <a href="#" class="active">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
+       <!-- Hamburger Button -->
+       <button id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="fa-bars">
+      </div>
+    </nav>
     </header>
     <section id="home" class="home">
         <div class="home-content">
@@ -33,14 +43,13 @@
 decisions through expert business analysis and strategic insights.
             </p>
             <div class="container">
-                <div class="box-1"><h2> Hi! I am Mai Huynh.<br>
-                    I am a Business Analyst.
-                </h2></div>
-            </div>
+                <div class="box-1"><h2> Hi! I am Mai Huynh.<br>I am a Business Analyst.
+                </h2>
+                </div>
             
             <div class="img-box">
                 <img src="Profile-Picture-Mai-Huynh.jpg" alt="">
-               
+            </div>
             </div>
         
     
@@ -57,7 +66,15 @@ decisions through expert business analysis and strategic insights.
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             <a href="#"><i class="fa-solid fa-envelope"></i></a>
     </div>
-    
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navbar = document.getElementById("navbar");
+      
+        menuToggle.addEventListener("click", () => {
+          navbar.classList.toggle("active");
+        });
+      </script>
+      
 </body>
 
 </html>
