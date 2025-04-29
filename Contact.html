@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Analytics</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="Website.css">
-    <!-- filepath: c:\Users\admin\Desktop\miamia9999.github.io\index.html -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="Home.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Analytics</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Website.css">
 
 </head>
 
 <body>
     <header>
         <nav class="header">
-            <a href="#" class="logo"><span>Mai Huynh</span></a>
-            <!-- Hamburger Button -->
-            <button id="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
+            <a href="index.html" class="logo"><span>Mai Huynh</span></a>
+            <!-- Navigation -->
             <ul class="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="About.html">About Me</a></li>
                 <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Contact.html" class="active">Contact</a></li>
             </ul>
-            </div>
         </nav>
     </header>
-    <section id="home" class="home">
-        <div class="home-content">
-            <h1></h1>
-
-            <p>
-            </p>
-            <div class="container">
-                <div class="box-1">
-                    <h2></h2>
-                </div>
-
+    <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
             </div>
-
-
-            <div class="btn-box">
-                <button onclick="location.href='Portfolio.html'" class="btn-1">Discover My Projects</button>
-                <button onclick="location.href='Contact.html'"class="btn-2">Let's Connect</button>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
             </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                    <a href="mailto:quemaihuynh12330@gmail.com" title="Send me an email">
+                      <i class="fa fa-paper-plane"></i>
+                      <span class="send-text">SEND</span>
+                    </a>
+                  </div>
+                  
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Helsinki, Finland</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(358) 555-2368</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:quemaihuynh12330@gmail.com" title="Send me an email">quemaihuynh12330@gmail.com</a></span></i></li> 
+              </ul>
+            </div>
+          
         </div>
-
-
-    </section>
+        
+      </section>  
+        
+        
 <footer>
     <div class="footer">
         <a href="https://www.linkedin.com/in/mai-huynh-845652188/"><i class="fa-brands fa-linkedin"></i></a>
