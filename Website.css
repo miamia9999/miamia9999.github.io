@@ -144,7 +144,7 @@ span {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 30px;
-  background-color: none;
+  background-color: transparent;
 }
 
 .container {
@@ -218,7 +218,7 @@ span {
 }
 
 .img-box {
-  margin-top: 30px auto;
+  margin-top: 30px;
   display: block;
   border-radius: 10%;
   width: 280px;
@@ -387,7 +387,7 @@ textarea {
   color: #aaa;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   text-align: left;
   margin: 10px 0;
   padding: 10px;
@@ -558,7 +558,7 @@ iframe {
   .container {
     display: flex;
     flex-direction: column;
-    margin: top 10px;
+    margin-top: 10px;
     padding: 0 20px;
   }
 
@@ -617,7 +617,7 @@ iframe {
     display: flex;
     flex-direction: column;
     /* Stack icon and text vertically */
-    align-items: left;
+    align-items: flex-start;
     /* left the content */
     margin: 10px 0;
     /* Add spacing between list items */
@@ -636,10 +636,15 @@ iframe {
     margin-bottom: 5px;
     /* Add spacing between the icon and text */
   }
+
   .alt-send-button {
-    margin: 10px 0; /* Add vertical spacing */
-    margin-left: 0; /* Align to the left */
-    width: 100%; /* Optional: Make it full width */
-    text-align: center; /* Align text */
-}
+    margin: 10px 0;
+    /* Add vertical spacing */
+    margin-left: 0;
+    /* Align to the left */
+    width: 100%;
+    /* Optional: Make it full width */
+    text-align: center;
+    /* Align text */
+  }
 }
