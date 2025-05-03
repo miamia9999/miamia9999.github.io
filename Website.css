@@ -365,6 +365,12 @@ body {
 .list-item {
   line-height: 4;
   color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: left ;
+  text-align:left;
+  margin: 10px 0;
+  padding: 10px;
 }
 
 .contact-text {
@@ -443,7 +449,7 @@ iframe {
       padding: 10px 5%;
       text-align: center;
       gap: 2em;
-      margin-top: 50px;
+      margin-top: 70px;
       flex-wrap: wrap;
   }
 
@@ -554,5 +560,29 @@ iframe {
     .btn-primary {
 margin-left: 5px;
     }
-    }
+      .contact-list {
+          display: flex;
+          flex-direction: column; /* Stack items vertically */
+          align-items: center; /* Center items */
+          gap: 5px; /* Add spacing between items */
+      }
+  
+      .list-item {
+          display: flex;
+          flex-direction: column; /* Stack icon and text vertically */
+          align-items: left; /* left the content */
+          margin: 10px 0; /* Add spacing between list items */
+      }
+  
+      .contact-text {
+          font-size: 14px; /* Adjust font size for smaller screens */
+          word-wrap: break-word; /* Ensure long text wraps */
+          text-align: center; /* Center the text */
+      }
+  
+      .fa-envelope {
+          margin-bottom: 5px; /* Add spacing between the icon and text */
+      }
+  }
+    
  
