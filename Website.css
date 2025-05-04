@@ -85,10 +85,7 @@ span {
 
 .home-content {
   display: flex;
-  /* justify-content: space-around;*/
-  /* Center horizontally */
   align-items: center;
-  /* Center vertically */
   text-align: center;
   /* flex-wrap: wrap;*/
   margin-top: 30px;
@@ -148,15 +145,6 @@ span {
   margin-top: 30px;
   background-color: transparent;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  padding: 0 20px;
-}
-
-/*picture*/
 .video {
   margin-top: 30px;
 }
@@ -175,7 +163,6 @@ span {
 
 .btn-1 {
   display: flex;
-  ;
   justify-content: center;
   align-items: center;
   padding: 15px 20px;
@@ -198,7 +185,6 @@ span {
 
 .btn-2 {
   display: flex;
-  ;
   justify-content: center;
   align-items: center;
   padding: 15px 20px;
@@ -320,7 +306,6 @@ body {
 
 /* Left contact page */
 .form-horizontal {
-  /*float: left;*/
   max-width: 600px;
   font-family: 'Lato';
   font-weight: 400;
@@ -470,7 +455,6 @@ iframe {
 
   .home {
     display: flex;
-    /* phải thêm dòng này */
     flex-direction: column;
     padding: 10px 5%;
     text-align: center;
@@ -531,36 +515,11 @@ iframe {
     padding: 10px;
   }
 
-
-  #menu-toggle {
-    display: none;
-    position: absolute;
-    /*quan trong để nó nằm bên phải*/
-    top: 20px;
-    /*quan trong để nó nằm bên phải*/
-    right: 20px;
-    /*quan trong để nó nằm bên phải*/
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-  }
-
   .fa-bars {
     font-size: 24px;
     color: lightgreen;
     flex-direction: column;
   }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    padding: 0 20px;
-  }
-
-  /*picture*/
   .btn-1,
   .btn-2 {
     width: 100%;
@@ -573,7 +532,6 @@ iframe {
   }
 
   /* Contact Page*/
-  /* Make input and textarea boxes smaller */
   .form-control,
   textarea {
     width: 90%;
@@ -604,11 +562,8 @@ iframe {
   .contact-list {
     display: flex;
     flex-direction: column;
-    /* Stack items vertically */
     align-items: center;
-    /* Center items */
     gap: 5px;
-    /* Add spacing between items */
   }
 
   .list-item {
@@ -618,32 +573,26 @@ iframe {
     align-items: flex-start;
     /* left the content */
     margin: 10px 0;
-    /* Add spacing between list items */
   }
 
   .contact-text {
     font-size: 14px;
-    /* Adjust font size for smaller screens */
     word-wrap: break-word;
     /* Ensure long text wraps */
     text-align: center;
-    /* Center the text */
   }
 
   .fa-envelope {
     margin-bottom: 5px;
-    /* Add spacing between the icon and text */
   }
 
   .alt-send-button {
     margin: 10px 0;
-    /* Add vertical spacing */
     margin-left: 0;
     /* Align to the left */
     width: 100%;
-    /* Optional: Make it full width */
     text-align: center;
-    /* Align text */  }
+  }
     .send-button {
 background-color: white;
 }
