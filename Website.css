@@ -601,6 +601,7 @@ iframe {
 
   .btn-primary {
     margin-left: 5px;
+    background-color: white;
   }
 
   .contact-list {
@@ -646,5 +647,6 @@ iframe {
     /* Optional: Make it full width */
     text-align: center;
     /* Align text */
+    justify-content: center;
   }
 }
