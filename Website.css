@@ -449,25 +449,23 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 12px;
+    gap: 5px;
     margin-top: 10px;
     align-items: center;
-    justify-content: space-around;
-
   }
 
   .navbar ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 5px;
     align-items: center;
     justify-content: center;
   }
 
   .navbar a {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .home {
