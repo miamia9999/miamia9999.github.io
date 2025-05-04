@@ -447,18 +447,17 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 0;
     gap: 12px;
     margin-top: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
   }
 
   .navbar ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 0;
     gap: 12px;
     align-items: center;
     justify-content: center;
@@ -491,7 +490,7 @@ iframe {
   .home-content p {
     margin-left: 0;
     margin-right: 0;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
     flex-wrap: wrap;
   }
