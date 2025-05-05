@@ -418,11 +418,10 @@ textarea {
 }
 
 /*video*/
-iframe {
+/*iframe {
   width: 100%;
-  max-width: 560px;
-  /* Set the maximum width to the original width */
-}
+  max-width: 560px;}
+  */
 
 @media (max-width: 768px) {
   iframe {
