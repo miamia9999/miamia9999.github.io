@@ -126,7 +126,7 @@ span {
 .home-content h1 {
   font-size: 40px;
   line-height: 1.2;
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,6 +144,15 @@ span {
   margin-right: 50px;
   margin-top: 30px;
   background-color: transparent;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Add spacing between grid items */
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  margin-top: 20px; /* Add spacing above the grid */
+
 }
 .video {
   margin-top: 30px;
@@ -303,7 +312,12 @@ body {
   max-width: 100%;
   width: 100%;
 }
-
+.form-group {
+  margin-left: 50px;
+}
+.form-group label{
+  color: #020024;
+}
 /* Left contact page */
 .form-horizontal {
   max-width: 600px;
@@ -324,13 +338,9 @@ textarea {
   margin-left: 50px;
 }
 
-.form-group {
-  margin-bottom: 2px;
-}
-
 .send-button {
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 100px;
   height: 30px;
   width: 200px;
   overflow: hidden;
@@ -424,7 +434,7 @@ iframe {
 
   .header {
     flex-direction: row;
-    padding: 20px 5%;
+    padding: 30px 5%;
     align-items: center;
     justify-content: center;
     /*justify-content: space-between;*/
@@ -467,7 +477,7 @@ iframe {
     font-size: 30px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
@@ -595,5 +605,6 @@ iframe {
   }
     .send-button {
 background-color: white;
+margin-left: 50px; /*same as form-group*/
 }
 }
