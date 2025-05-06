@@ -391,7 +391,7 @@ textarea {
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color:white;
 }
 
 .place {
@@ -407,13 +407,13 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: white;
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color:white;
   text-decoration: none;
 }
 
