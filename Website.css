@@ -269,7 +269,7 @@ span {
   background-color: #3c3c85;
   /* SAME background as .footer */
   text-align: center;
-  padding: 5px 0;
+  padding: 25px 0;
 }
 
 .copyright p {
@@ -514,7 +514,7 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px 0;
-    height: auto;
+    height:auto;
     width: 100%;
   }
 
@@ -524,7 +524,6 @@ textarea {
   }
 
   .copyright {
-    padding: 10px;
     width: 100%;
   }
 
